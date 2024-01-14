@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color:rgb(243,243,243) ;
+        }
+        
+        /*sign up bar*/
+        .new img{
+            width: 5%;
+            margin-top: 0px;
+            
+        }
+        .signUp{
+           display: block; 
+           width: 30%;
+           margin-left: 70%;
+        }
+        .new li{
+            display: inline-block;
+            font-size: 12px;
+            padding-left: 5px;
+        }
+
+        .new li a{
+            text-decoration: none;
+            padding: 0px 2px;
+        }
+        .new span{
+            color: blue;
+        }
+
+        .second{
+          display: flex;
+          width: 100%;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 30px;
+            font-weight: bold;
+            color:rgb(255,255,255);
+            padding-left: 40px;
+        }
+
+        .navbar li a{
+         display: flex;
+         padding-left: 10px;
+         text-decoration: none;
+        }
+        .navbar img {
+           display: inline-block;
+           position: relative;
+           top:24px;
+           width: 200px;
+           border-radius: 4px;
+        }
+
+        .navbar span{
+            color: rgb(255,196,35);
+        }
+
+        #one{
+           border: 1px solid black;
+            background-color:rgb(61,61,61) ;
+            margin-left: -5px;
+            padding: 15px 70px;
+            border-radius: 4px;
+            
+        }
+        #two{
+            border: 1px solid black;
+            background-color:rgb(61,61,61) ;
+            margin-left: -10px;
+            padding: 15px 80px;
+            border-radius: 4px;
+        }
+
+        #three{
+            border: 1px solid black;
+            background-color:rgb(61,61,61) ;
+            margin-left: -10px;
+            padding: 15px 140px;
+            border-radius: 4px;
+        }
+
+        /*sidebar*/
+       .third{
+        display: flex;
+        position: relative;
+        margin-left: 90px;
+      } 
+
+    .sidebar{
+        width: 170px;
+        height: 100%;
+        background-color:rgb(255,196,35);
+        padding: 0 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid rgb(234,216,168);
+        list-style-type:none; 
+    }
+
+    .sidebar li{
+        color: rgb(162,87,26);
+        height: 100%;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 30px 2px;
+        border-bottom: 1px solid rgb(255,210,86);
+    }
+
+    .sidebar span{
+        color: rgb(255,255,255);
+    }
+
+    /*main Images*/
+
+    .container{
+        position: absolute;
+        left: 25%;
+        top: 35%;
+        width: 100%;
+        max-width: fit-content;
+        border: 1px solid rgb(221,221,221);
+       
+    }
+    .container img{
+        width:100%;
+        height: auto;
+        padding: 15px 25px;
+    }
+
+    .container .btn{
+       position: absolute;
+       left: 60%;
+       bottom: 2%;
+       transform: translate(-10%, -20%);
+       -ms-transform: translate(-50%, 50%);
+       background-color: rgb(226,56,45);
+       font-size: 12px;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       font-weight: bolder;
+       color: white;
+       padding: 10px 30px;
+       border-radius: 4px;
+       cursor: pointer;
+    }
+
+    .button p{
+        color: green;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    
+    
+    
+    /*second image*/
+
+    .container2{
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        width: 100%;
+        max-width: fit-content;
+        border: 1px solid rgb(221,221,221);
+    }
+    
+    .container2 img{
+        width:100%;
+        height: auto;
+        padding: 15px 25px;
+    }
+
+    .container2 .btn{
+       position: absolute;
+       left: 60%;
+       bottom: 2%;
+       transform: translate(-10%, -20%);
+       -ms-transform: translate(-50%, 50%);
+       background-color: rgb(226,56,45);
+       font-size: 12px;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+       font-weight: bolder;
+       color: white;
+       padding: 10px 30px;
+       border-radius: 4px;
+       cursor: pointer;
+    }
+ 
+   /*third Image*/
+   
+   .container3{
+        position: absolute;
+        left: 75%;
+        top: 35%;
+        width: 100%;
+        max-width: fit-content;
+        border: 1px solid rgb(221,221,221);
+    }
+
+ </style>
+</head>
+<body>
+    <header>
+        <div class="signUp">
+            <ul class="new">
+                <img src="man.png" alt="">
+                <li><a href="#"></a><span>Sign in </span>|</li>
+                <li><a href="#"></a>Guest Order | </li>
+                <li><a href="#"></a>Track My Order</li>
+            </ul>
+        </div>
+        
+         <div class="second">
+            <ul class="navbar">
+                <li><a href="#"><img src="md_logo.jpg" alt="" ></a></li>
+                <li id="one"><a href="#" ><a><span>Menu</span></li>
+                <li id="two"><a href="#" ></a>My Account </li>
+                <li id="three"><a href="#"></a>Support</li>
+            </ul>
+         </div>
+    </header>
+
+    <div class="third">
+        <ul class="sidebar" >
+           <li><a href="#"></a><span>Breakfast</span></li>
+           <li><a href="#"></a>What's New</li>
+           <li><a href="#"></a>Breakfast Meals</li>
+           <li><a href="#"></a>Breakfast Wraps</li>
+           <li><a href="#"></a>Happy Meals</li>
+           <li><a href="#"></a>Desserts</li> 
+           <li><a href="#"></a>Sides</li>
+           <li><a href="#"></a>McCafeBakery</li>
+           <li><a href="#"></a>McCafeDrinks</li>
+           <li><a href="#"></a>Regular ></li>
+
+        </ul>
+    </div>
+     
+<main class="container">
+    <div class="pic">
+        <img src="1752.png" alt="">
+        
+        <div class="button">
+            <p> From $10.00</p> 
+            <button class="btn">ORDER</button>
+       </div>
+    </div>
+</main>
+
+<main class="container2">
+    <div class="pic">
+        <img src="6204.png" " alt="">
+        
+        <div class="button">
+            <p> From $3.00</p> 
+            <button class="btn">ORDER</button>
+       </div>
+    </div>
+</main>
+
+<div class="container3"><img src="how_mcdelivery_works_portrait_en.png" alt=""></div>
+
+</body>
+</html>
